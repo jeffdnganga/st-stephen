@@ -1,0 +1,148 @@
+body{
+    -webkit-font-smoothing: antialiased; 
+    font-smooth: antialiased;
+}
+.quick-contact{
+    background-color: #22577aff;
+    color: white;
+}
+.quick-contact a{
+    color: white!important;
+    text-decoration: none;
+}
+.quick-contact a:hover{
+    color: yellow!important;
+    transition: 0.5s;
+}
+.quick-contact ul li{
+    border-right: 2px solid white;
+}
+.quick-contact ul li .fab{
+    position: relative;
+}
+.navbar{
+    background-color: #38a3a5ff;
+}
+.navbar .btn{
+    border-radius: 16px;
+    height: 40px;
+    width: 100px;
+}
+.navbar .nav-item .dropdown-menu{
+    background-color: #38a3a5ff;
+    min-width: 250px;
+}
+.navbar .nav-item .dropdown-menu li a{
+    color: white;
+}
+.navbar .nav-item .dropdown-menu li a:hover{
+    background-color: #38a3a5ff;
+    padding-left: 25px;
+    transition: 0.5s;
+    color: yellow;
+}
+.slider img{
+    height: 55vh;
+}
+/* for the yellow circles that appear before the page links when you click them */
+.navbar ul li a:focus::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    background: yellow;
+    left: -2px;
+    top: 0px;
+}
+.border{
+    background: #38a3a5ff;
+    height: 5px;
+    width: 50px;
+    margin: 10px 0;
+}
+.services p.text-top{
+    max-width: 50%;
+    margin: 10px auto;
+}
+.services i{
+    width: 100px;
+    height: 100px;
+    color: #38a3a5ff;
+    border: 2px solid #38a3a5ff;
+    font-size: 40px;
+    padding: 25px;
+    border-radius: 40px;
+}
+.services i:hover{
+    border-radius: 50%;
+    transition: linear 0.3s;
+    color: #22577aff;
+    border: 2px solid #22577aff;
+}
+.excellence img{
+    width: 88%;
+    box-shadow: 10px 10px rgba(56, 163, 165, 0.493);
+}
+.excellence .text-column .award-date{
+    color: #38a3a5ff;
+}
+.our-faculty{
+    /* top transparent theme color */
+    background: linear-gradient(rgba(56, 163, 165, 0.473), rgba(56, 163, 165, 0.473)),
+    /* bottom, image */
+    url('../images/faculty-image.jpg');
+}
+.our-faculty p{
+    text-shadow: 0 0 5px #22577aff;
+}
+.our-faculty .border{
+    background-color: yellow;
+}
+.latest-news .row a{
+    text-decoration: none;
+}
+.latest-news .row .card{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.latest-news .row .card:hover{
+    box-shadow: 0 0 15px #80ed99ff;
+    transition: 0.25s;
+}
+.latest-news .row .card img:hover{
+    opacity: 0.4;
+    transition: 0.25s;
+}
+.date-bottom-border{
+    height: 1px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    background-color: #22577aff;
+}
+.date-bottom-border-center-card{
+    height: 0.5px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    background-color: #22577aff;
+}
+.latest-news .btn
+{
+    max-width: 50%!important;
+}
+.contact-banner .container-fluid{
+    display: table;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contact-image.jpg");
+    background-size: 100% 100%;
+}
+.contact-banner .container-fluid .banner-message{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.contact-banner .container-fluid .banner-message p{
+    text-shadow: 0 0 20px #000000;
+}
