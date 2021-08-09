@@ -146,3 +146,20 @@ body{
 .contact-banner .container-fluid .banner-message p{
     text-shadow: 0 0 20px #000000;
 }
+
+.news_events_banner .container-fluid{
+    display: table;
+    width: 100%;
+    min-height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/news-events-banner.jpg");
+    background-size: 100% 100%;
+}
+
+.news_events_banner .container-fluid .news_banner_msg{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.news_events_banner .container-fluid .news_banner_msg p{
+    text-shadow: 0 0 20px #000000;
+}    
