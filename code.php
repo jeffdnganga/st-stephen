@@ -110,4 +110,10 @@ if(isset($_POST['del_msg_btn'])){
     }
 }
 
+// <?php
+
+// $query = "SELECT * FROM events ORDER BY created_at";
+// $query_run = mysqli_query($connection, $query);
+
+
 ?>

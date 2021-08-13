@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 body{
     -webkit-font-smoothing: antialiased; 
     font-smooth: antialiased;
@@ -162,4 +166,29 @@ body{
 
 .news_events_banner .container-fluid .news_banner_msg p{
     text-shadow: 0 0 20px #000000;
-}    
+}   
+
+.news_events_section .card .date-div{
+    background: rgb(152,193,217);
+    background: linear-gradient(90deg, rgba(152,193,217,1) 0%, rgba(61,90,128,1) 100%, rgba(0,212,255,1) 100%);
+    border-radius: 5px;
+    top: 220px;
+    left: 20px;
+    position: absolute;
+}
+
+.news_events_section .card:hover{
+    box-shadow: 0 0 15px #80ed99ff;
+    transition: 0.5s;
+}
+
+.news-bottom-border{
+    height: 1px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    background-color: #22577aff;
+}
+
+.news_events_section .news_col a:hover{
+    color: #38a3a5ff!important;
+}
